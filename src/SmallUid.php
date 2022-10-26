@@ -129,7 +129,7 @@ class SmallUid implements ValueObject
     // Methods
     //========================================================================================================
     
-    final public function jsonSerialize()
+    final public function jsonSerialize() : mixed
     {
         return $this->value;
     }
